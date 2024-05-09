@@ -7,6 +7,9 @@ export default defineNuxtConfig({
   routeRules: {
     "/": {
       isr: 3600,
+      headers: {
+        "Netlify-Vary": "query",
+      },
     },
   },
 });
