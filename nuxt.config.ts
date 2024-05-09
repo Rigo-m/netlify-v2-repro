@@ -4,4 +4,9 @@ export default defineNuxtConfig({
   nitro: {
     preset: "./presets/netlify-v2-fixed.ts",
   },
+  routeRules: {
+    "/": {
+      isr: 3600,
+    },
+  },
 });
