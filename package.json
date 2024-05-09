@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build --preset netlify-v2",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "npm:nuxt-nightly@latest",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  }
+}
