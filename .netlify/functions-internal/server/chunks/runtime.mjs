@@ -3822,7 +3822,7 @@ function _expandFromEnv(value) {
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "b507a111-517b-4df8-9181-d5c4d523723e"
+    "buildId": "3f0633e7-99fd-4c53-b2f7-7bdf27f9db3e"
   }
 };
 
@@ -3841,6 +3841,12 @@ const _inlineRuntimeConfig = {
     "routeRules": {
       "/__nuxt_error": {
         "cache": false
+      },
+      "/": {
+        "isr": 3600,
+        "headers": {
+          "Netlify-Vary": "query"
+        }
       },
       "/_nuxt/builds/meta/**": {
         "headers": {

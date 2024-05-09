@@ -1,5 +1,5 @@
 {
-  "date": "2024-05-09T16:00:13.337Z",
+  "date": "2024-05-09T16:24:45.163Z",
   "preset": "./presets/netlify-v2-fixed.ts",
   "framework": {
     "name": "nuxt",

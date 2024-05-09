@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     "/": {
       isr: 3600,
       headers: {
-        "Netlify-Vary": "query",
+        "Netlify-Vary": "query=page",
       },
     },
   },

@@ -4494,7 +4494,7 @@ if (!globalThis.$fetch) {
   });
 }
 const nuxtLinkDefaults = { "componentName": "NuxtLink" };
-const buildId = "b507a111-517b-4df8-9181-d5c4d523723e";
+const buildId = "3f0633e7-99fd-4c53-b2f7-7bdf27f9db3e";
 function getNuxtAppCtx(appName) {
   return getContext(appName || buildId || "nuxt-app", {
     asyncContext: false
