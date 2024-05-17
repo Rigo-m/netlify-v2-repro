@@ -16,7 +16,7 @@
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "nitropack": "^2.10.0-28597966.b2831dd5",
+    "nitropack": "npm:nitropack-nightly@latest",
     "patch-package": "^8.0.0",
     "pathe": "^1.1.2"
   }
