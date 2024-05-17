@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "build:netlify": "NITRO_PRESET=netlify nuxt build",
     "build:cloudflare": "NITRO_PRESET=cloudflare_pages nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -11,10 +12,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nitropack": "npm:nitropack-nightly@latest",
     "nuxt": "npm:nuxt-nightly@latest",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
+  },
+  "resolutions": {
+    "nitropack": "npm:nitropack-nightly@2.10.0-28597966.b2831dd5"
   },
   "devDependencies": {}
 }
