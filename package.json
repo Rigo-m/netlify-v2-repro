@@ -11,12 +11,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nitropack": "^2.10.0-28597966.b2831dd5",
     "nuxt": "npm:nuxt-nightly@latest",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
+    "nitropack": "^2.10.0-28597966.b2831dd5",
     "patch-package": "^8.0.0",
     "pathe": "^1.1.2"
   }
